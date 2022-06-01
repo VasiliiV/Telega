@@ -179,6 +179,8 @@
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 10px;
+    position: sticky;
+    bottom: 33px;
 }
 .formNiz form {
     display: flex;
