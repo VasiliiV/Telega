@@ -5,9 +5,7 @@
 }
 .sitebar {
     display: flex;
-    width: 500px;
     background-color: #efeff0;
-    /* justify-content: flex-start; */
     flex-direction: column;
     padding-left: 7px;
     font-family: Arial, Helvetica, sans-serif;
@@ -19,7 +17,6 @@
 }
 .rightpanel {
     display: flex;
-    width: 100%;
     overflow: auto;
     flex-grow: 1;
     /* min-height: 150px; */
@@ -136,7 +133,8 @@
     width: 100%;
     height: 53px;
     background-color: #efeff0;
-    position: relative;
+    position: sticky;
+    top: 0;
 }
 .UPpannel img {
     border-radius: 215px;
