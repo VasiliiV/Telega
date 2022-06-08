@@ -19,7 +19,6 @@
     display: flex;
     overflow: auto;
     flex-grow: 1;
-    /* min-height: 150px; */
     background-image: url(./telegramm-22.jpg);
     background-size: 970px auto;
     background-repeat: repeat;
